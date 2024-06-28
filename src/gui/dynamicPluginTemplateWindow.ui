@@ -32,7 +32,7 @@
     <string>I'm ALIVE!!!</string>
    </property>
   </widget>
-  <widget class="BarFrame" name="TitleBar">
+  <widget class="TitleBar" name="titleBar">
    <property name="geometry">
     <rect>
      <x>0</x>
@@ -145,7 +145,7 @@
  <layoutdefault spacing="6" margin="11"/>
  <customwidgets>
   <customwidget>
-   <class>BarFrame</class>
+   <class>TitleBar</class>
    <extends>QFrame</extends>
    <header>Dialog.hpp</header>
    <container>1</container>
